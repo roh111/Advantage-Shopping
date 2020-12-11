@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-11T02:11:38 PST" name="Default suite" finished-at="2020-12-11T02:11:55 PST" duration-ms="16859">
+    <groups>
+    </groups>
+    <test started-at="2020-12-11T02:11:38 PST" name="Default test" finished-at="2020-12-11T02:11:55 PST" duration-ms="16859">
+      <class name="Testcases.T001_homePageValidation">
+        <test-method signature="homePageValidation()[pri:0, instance:Testcases.T001_homePageValidation@e4487af]" started-at="2020-12-11T02:11:38 PST" name="homePageValidation" finished-at="2020-12-11T02:11:55 PST" duration-ms="16810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageValidation -->
+      </class> <!-- Testcases.T001_homePageValidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
