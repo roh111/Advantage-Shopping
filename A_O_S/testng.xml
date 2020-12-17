@@ -3,11 +3,11 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-    <class name="Testcases.T001_homePageValidation"/>
-     <class name="Testcases.T002_loginPageValidation"/>
-     <class name="Testcases.T003_PurchaseSpeakersValidation"/>
-      <class name="Testcases.T004_purchaseTabletsValidation"/>
-      <class name="Testcases.T005_purchaseHeadphonesValidation"/>
+     <class name="Testcases.T001_homePageValidation"/>
+           <class name="Testcases.T002_loginPageValidation"/>
+      <class name="Testcases.T003_PurchaseSpeakersValidation"/>
+        <class name="Testcases.T004_purchaseTabletsValidation"/>
+        <class name="Testcases.T005_purchaseHeadphonesValidation"/>
       <class name="Testcases.T006_purchaseMicesValidation"/>
       <class name="Testcases.T007_searchOptionsValidation"/>
     </classes>
