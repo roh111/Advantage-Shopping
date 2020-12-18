@@ -3,26 +3,6 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Testcases.T005_purchaseHeadphonesValidation">
-        <methods>
-          <include name="headphonesPageValidation"/>
-        </methods>
-      </class> <!-- Testcases.T005_purchaseHeadphonesValidation -->
-      <class name="Testcases.T002_loginPageValidation">
-        <methods>
-          <include name="loginPageValidation"/>
-        </methods>
-      </class> <!-- Testcases.T002_loginPageValidation -->
-      <class name="Testcases.T004_purchaseTabletsValidation">
-        <methods>
-          <include name="tabletsPageValidation"/>
-        </methods>
-      </class> <!-- Testcases.T004_purchaseTabletsValidation -->
-      <class name="Testcases.T006_purchaseMicesValidation">
-        <methods>
-          <include name="micesPageValidation"/>
-        </methods>
-      </class> <!-- Testcases.T006_purchaseMicesValidation -->
       <class name="Testcases.T003_PurchaseSpeakersValidation">
         <methods>
           <include name="speakersPageValidation"/>
