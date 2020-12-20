@@ -49,18 +49,20 @@ package Utilities;
 		
 		
 		
-		public static void clickSginIn() 
+		public static void clickSginIn() throws InterruptedException 
 		{
 		    driver.findElement(webEL.clickSginIN).click();
+		    Thread.sleep(3000);
 		}
 			
 			
 		
 		
-		public static void clickDropD() 
+		public static void clickDropD() throws InterruptedException 
 			
 		{
 			driver.findElement(webEL.clickDropD).click();
+			Thread.sleep(3000);
 		}
 			
 			
@@ -74,7 +76,7 @@ package Utilities;
 		
 		public static void closeBrowser()
 		{
-			driver.close();
+			//driver.close();
 		}
 
 }
