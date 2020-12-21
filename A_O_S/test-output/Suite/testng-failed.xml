@@ -3,11 +3,16 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Testcases.T005_purchaseHeadphonesValidation">
+      <class name="Testcases.T003_PurchaseSpeakersValidation">
         <methods>
-          <include name="headphonesPageValidation"/>
+          <include name="speakersPageValidation"/>
         </methods>
-      </class> <!-- Testcases.T005_purchaseHeadphonesValidation -->
+      </class> <!-- Testcases.T003_PurchaseSpeakersValidation -->
+      <class name="Testcases.T007_searchOptionsValidation">
+        <methods>
+          <include name="searchPageValidation"/>
+        </methods>
+      </class> <!-- Testcases.T007_searchOptionsValidation -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
