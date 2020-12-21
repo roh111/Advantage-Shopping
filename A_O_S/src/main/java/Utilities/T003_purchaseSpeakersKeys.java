@@ -22,6 +22,7 @@ public class T003_purchaseSpeakersKeys {
 	public static void openUrl() throws InterruptedException 
 	{
 		driver.get(constantValue.URL);
+
 		Thread.sleep(5000);
 	}
 	
@@ -167,6 +168,8 @@ public class T003_purchaseSpeakersKeys {
 	public static void clickLogOut() 
 	{
 		driver.findElement(webEL.clickLogOut).click();
+		System.out.println("T003_Speakers Page validated Successfully");
+		logCollector.debug("T003_Speakers Page validated Successfully");
 	}
 	
 	

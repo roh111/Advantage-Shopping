@@ -20,6 +20,7 @@ package Utilities;
 		public static void openUrl() throws InterruptedException 
 		{
 			driver.get(constantValue.URL);
+
 			Thread.sleep(5000);
 		}
 		
@@ -71,6 +72,8 @@ package Utilities;
 		public static void clickLogOut() 
 		{
 			driver.findElement(webEL.clickLogOut).click();
+			System.out.println("T002_Login Page validated Successfully");
+			logCollector.debug("T002_Login Page validated Successfully");
 		}
 		
 		

@@ -20,6 +20,7 @@ public class T007_searchOptionKeys {
 	public static void openUrl() throws InterruptedException 
 	{
 		driver.get(constantValue.URL);
+
 		Thread.sleep(5000);
 	}
 	
@@ -111,6 +112,8 @@ public class T007_searchOptionKeys {
 		{
 		driver.findElement(webEL.clickOnCross).click();
 		Thread.sleep(3000);
+		System.out.println("T007_Search Page validated Successfully");
+		logCollector.debug("T007_Search Page validated Successfully");
 		}
 		
 		

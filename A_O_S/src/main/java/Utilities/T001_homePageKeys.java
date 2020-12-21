@@ -22,8 +22,7 @@ public class T001_homePageKeys {
 	public static void openUrl() throws InterruptedException 
 	{
 		driver.get(constantValue.URL);
-		System.out.println("Home Page Opened Successfully");
-		logCollector.debug("Home page checked successfully");
+
 		Thread.sleep(5000);
 	}
 	
@@ -34,6 +33,8 @@ public class T001_homePageKeys {
 		String homePageAtitle=driver.getTitle();
 		Assert.assertEquals(homePageAtitle, constantValue.homePageEtitle);
 		System.out.println("Home Page Title Check Completed Successfully");
+		System.out.println("T001_Home Page validated Successfully");
+		logCollector.debug("T001_Home Page validated Successfully");
    	}
 	
 	
